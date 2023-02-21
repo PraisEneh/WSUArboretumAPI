@@ -19,10 +19,10 @@ This API consists of two main routes
 ### Response Objects
 
 #### When using the /tree/getOneTree route, 
-you must provide an id number with the query key 'id'. The following json object will be returned:__
+you must provide an id number with the query key 'id'. The following json object will be returned:  
 
-entityID: integer
-displayName: string
+entityID: integer  
+displayName: string  
 geoLocation: string
 description: string
 defaultImagePath: string
