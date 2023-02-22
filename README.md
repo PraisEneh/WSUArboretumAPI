@@ -83,35 +83,35 @@ resources: array of objects [
 &nbsp;&nbsp;&nbsp;},  
 &nbsp;&nbsp;&nbsp;...  
 &nbsp;&nbsp;],  
-  "locations": [  
-    {  
-      "locationId": 131,  
-      "entityId": 3,  
-      "entityName": "Austrian Pine",  
-      "entityType": "Tree",  
-      "geoLocation": "[{\"Lat\":\"44.047318\",\"Lng\":\"-91.644497\"}]",  
-      "isDefaultLocation": true  
-    },  
-    {  
-        ...  
-    },  
-    ...  
-  ],  
-  "resources": [  
-    {  
-      "resourceId": 9,  
-      "resourceTypeId": 1,  
-      "resourceType": "Image",  
-      "entityId": 3,  
-      "description": "Austrian Pine",  
-      "isDefault": true,  
-      "path": "https://w3.winona.edu/Locations/Resources/AustrianPine.png"  
-    },  
-    {  
-        ...  
-    },  
-    ...  
-  ]  
+&nbsp;&nbsp;&nbsp;"locations": [  
+&nbsp;&nbsp;&nbsp;{  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"locationId": 131,  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"entityId": 3,  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"entityName": "Austrian Pine",  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"entityType": "Tree",  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"geoLocation": "[{\"Lat\":\"44.047318\",\"Lng\":\"-91.644497\"}]",  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"isDefaultLocation": true  
+&nbsp;&nbsp;&nbsp;},  
+&nbsp;&nbsp;&nbsp;{  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;...  
+&nbsp;&nbsp;&nbsp;},  
+&nbsp;&nbsp;&nbsp;...  
+&nbsp;&nbsp;],  
+&nbsp;&nbsp;&nbsp;"resources": [  
+&nbsp;&nbsp;&nbsp;{  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"resourceId": 9,  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"resourceTypeId": 1,  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"resourceType": "Image",  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"entityId": 3,  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"description": "Austrian Pine",  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"isDefault": true,  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"path": "https://w3.winona.edu/Locations/Resources/AustrianPine.png"  
+&nbsp;&nbsp;&nbsp;},  
+&nbsp;&nbsp;&nbsp;{  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;...  
+&nbsp;&nbsp;&nbsp;},  
+&nbsp;&nbsp;&nbsp;...  
+&nbsp;&nbsp;]  
 }  
 
 
@@ -120,18 +120,18 @@ There is no required configuration. Just call the route.
 The response object returned will be an array of objects in the following format:  
 
 [  
-  {  
-    "id": 1,  
-    "name": "American Chestnut"  
-  },  
-  {  
-    "id": 2,  
-    "name": "Amur Corktree"  
-  },  
-  {  
-    ...  
-  },  
-  ...  
+&nbsp;&nbsp;&nbsp;{  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"id": 1,  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"name": "American Chestnut"  
+&nbsp;&nbsp;&nbsp;},  
+&nbsp;&nbsp;&nbsp;{  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"id": 2,  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"name": "Amur Corktree"  
+&nbsp;&nbsp;&nbsp;},  
+&nbsp;&nbsp;&nbsp;{  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;...  
+&nbsp;&nbsp;&nbsp;},  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;...  
 ]  
 
 This can be useful to have a local instance of a name to id mapping for quicker querying and retrieval.
