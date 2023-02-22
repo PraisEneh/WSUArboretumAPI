@@ -21,7 +21,10 @@ This API consists of two main routes
 */tree/getOneTree?id='some_id_number' - Get a single tree
 
 The following subroutes
+
 */help - View the documentation/source code
+
+*/ - Root route
 
 ### Response Objects
 
