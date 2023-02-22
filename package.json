@@ -9,7 +9,7 @@
     "dev": "nodemon server.js"
   },
   "author": "praiseneh",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "nodemon": "^2.0.20"
   },
