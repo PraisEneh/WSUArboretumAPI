@@ -27,12 +27,12 @@ geoLocation: string
 description: string  
 defaultImagePath: string  
 attributeValues: array of objects [  
-    {  
-        entityid,  
-        attributeName,  
-        attributeValue,  
-        attributeType,  
-    }  
+      {  
+          entityid,  
+          attributeName,  
+          attributeValue,  
+          attributeType,  
+      }  
 ]  
 locations: array of objects [  
     {  
