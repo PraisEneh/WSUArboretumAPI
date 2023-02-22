@@ -34,8 +34,8 @@ geoLocation: string
 description: string  
 defaultImagePath: string  
 attributeValues: array of objects [  
-      {  
-          entityid,  
+&nbsp;&nbsp;&nbsp;{  
+&nbsp;&nbsp;&nbsp;&nbsp;entityid,  
           attributeName,  
           attributeValue,  
           attributeType,  
