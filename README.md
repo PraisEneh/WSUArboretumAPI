@@ -12,9 +12,12 @@ It also makes use of the Arboretum XML file link to the trees so the objects are
 
 This API consists of two main routes
 
-*/tree/getAllTrees
+*/tree/getAllTrees - Get a list of all the trees
 
-*/tree/getOneTree?id='some_id_number'
+*/tree/getOneTree?id='some_id_number' - Get a single tree
+
+The following subroutes
+*/help - View the documentation/source code
 
 ### Response Objects
 
