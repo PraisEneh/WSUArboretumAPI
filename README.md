@@ -34,55 +34,55 @@ geoLocation: string
 description: string  
 defaultImagePath: string  
 attributeValues: array of objects [  
-&nbsp;{  
+&nbsp;&nbsp;{  
 &nbsp;&nbsp;&nbsp;entityid,  
 &nbsp;&nbsp;&nbsp;attributeName,  
 &nbsp;&nbsp;&nbsp;attributeValue,  
 &nbsp;&nbsp;&nbsp;attributeType,  
-&nbsp;}  
+&nbsp;&nbsp;}  
 ]  
 locations: array of objects [  
-    {  
-        locationId,   
-        entityId,  
-        entityName,   
-        entityType,  
-        geoLocation,  
-        isDefaultLocation  
-    }  
+&nbsp;&nbsp;{  
+&nbsp;&nbsp;&nbsp;locationId,   
+&nbsp;&nbsp;&nbsp;entityId,  
+&nbsp;&nbsp;&nbsp;entityName,   
+&nbsp;&nbsp;&nbsp;entityType,  
+&nbsp;&nbsp;&nbsp;geoLocation,  
+&nbsp;&nbsp;&nbsp;isDefaultLocation  
+&nbsp;&nbsp;}  
 ]  
 resources: array of objects [  
-    {  
-        resourceId,  
-        resourcetypeId,  
-        resourceType,  
-        entityID,  
-        description,  
-        isDefault,  
-        path  
-    }  
+&nbsp;&nbsp;{  
+&nbsp;&nbsp;&nbsp;resourceId,  
+&nbsp;&nbsp;&nbsp;resourcetypeId,  
+&nbsp;&nbsp;&nbsp;resourceType,  
+&nbsp;&nbsp;&nbsp;entityID,  
+&nbsp;&nbsp;&nbsp;description,  
+&nbsp;&nbsp;&nbsp;isDefault,  
+&nbsp;&nbsp;&nbsp;path  
+&nbsp;&nbsp;}  
 ]  
 
 ##### Example Response
 
 {  
-  "entityId": 3,  
-  "displayName": "Austrian Pine",  
-  "geoLocation": "[{\"Lat\":\"44.047318\",\"Lng\":\"-91.644497\"}]",  
-  "description": "The Austrian Pine, sometimes called the European Black Pine, has been planted in parks, residential landscapes, and in farm windbreaks across the United States. In some parts of the country it ...",  
-  "defaultImagePath": "https://w3.winona.edu/Locations/Resources/AustrianPine.png",  
-  "attributeValues": [  
-    {  
-      "entitiyId": 3,  
-      "attributeName": "Common Name",  
-      "attributeValue": "Austrian Pine",  
-      "attributeType": "Text"  
-    },  
-    {  
-      ...  
-    },  
-    ...  
-  ],  
+&nbsp;&nbsp;&nbsp;"entityId": 3,  
+&nbsp;&nbsp;&nbsp;"displayName": "Austrian Pine",  
+&nbsp;&nbsp;&nbsp;"geoLocation": "[{\"Lat\":\"44.047318\",\"Lng\":\"-91.644497\"}]",  
+&nbsp;&nbsp;&nbsp;"description": "The Austrian Pine, sometimes called the European Black Pine, has been planted in parks, residential landscapes, and in farm windbreaks across the United States. In some parts of the country it ...",  
+&nbsp;&nbsp;&nbsp;"defaultImagePath": "https://w3.winona.edu/Locations/Resources/AustrianPine.png",  
+&nbsp;&nbsp;&nbsp;"attributeValues": [  
+&nbsp;&nbsp;&nbsp;{  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"entitiyId": 3,  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"attributeName": "Common Name",  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"attributeValue": "Austrian Pine",  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"attributeType": "Text"  
+&nbsp;&nbsp;&nbsp;},  
+&nbsp;&nbsp;&nbsp;{  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;...  
+&nbsp;&nbsp;&nbsp;},  
+&nbsp;&nbsp;&nbsp;...  
+&nbsp;&nbsp;],  
   "locations": [  
     {  
       "locationId": 131,  
