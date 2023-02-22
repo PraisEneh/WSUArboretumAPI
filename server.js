@@ -6,6 +6,7 @@ const cors = require('cors');
 const corsOptions = require('./config/corsOptions');
 const {logger} = require('./middleware/logEvents');
 const errorHandler = require('./middleware/errorHandler');
+const path = require('path');
 const PORT = process.env.PORT;
 // 1-293 is the index range for the trees
 
@@ -29,7 +30,7 @@ app.get('/help', (req, res) => {
 })
 
 app.get('/', (req, res) => {
-    res.send(process.env.SECRET_MESSAGE)
+    res.sendFile(path.join(__dirname, 'views', 'index.html'))
 });
 
 // If route doesn't exist
