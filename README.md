@@ -1,4 +1,4 @@
-# This is an API for the WSU Arboretum website. It formats XML to JSON
+# API for the WSU Arboretum website.
 
 ## Author
 Praise Chinedu-Eneh
