@@ -8,6 +8,10 @@ Like the title above, this is an API for the WSU Arboretum.
 It formats XML to JSON.
 It also makes use of the Arboretum XML file link to the trees so the objects are direct outputs from the XML file format.
 
+### API Link
+
+-https://wsuarboretumnodeapi.onrender.com/
+
 ### How to use this API
 
 This API consists of two main routes
