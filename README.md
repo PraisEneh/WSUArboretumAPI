@@ -34,12 +34,12 @@ geoLocation: string
 description: string  
 defaultImagePath: string  
 attributeValues: array of objects [  
-&nbsp;&nbsp;&nbsp;{  
-&nbsp;&nbsp;&nbsp;&nbsp;entityid,  
-          attributeName,  
-          attributeValue,  
-          attributeType,  
-      }  
+&nbsp;{  
+&nbsp;&nbsp;&nbsp;entityid,  
+&nbsp;&nbsp;&nbsp;attributeName,  
+&nbsp;&nbsp;&nbsp;attributeValue,  
+&nbsp;&nbsp;&nbsp;attributeType,  
+&nbsp;}  
 ]  
 locations: array of objects [  
     {  
