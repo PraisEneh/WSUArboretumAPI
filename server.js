@@ -24,6 +24,10 @@ app.use(express.json());
 
 app.use('/tree', require('./routes/tree'));
 
+app.get('/help', (req, res) => {
+    res.redirect('https://github.com/PraisEneh/WSUArboretumAPI')
+})
+
 app.get('/', (req, res) => {
     res.send(process.env.SECRET_MESSAGE)
 });
