@@ -23,6 +23,8 @@ app.use(express.urlencoded({ extended: false }));
 // middleware for json data
 app.use(express.json());
 
+app.use('/root', require('./routes/root'));
+
 app.use('/tree', require('./routes/tree'));
 
 app.get('/help', (req, res) => {

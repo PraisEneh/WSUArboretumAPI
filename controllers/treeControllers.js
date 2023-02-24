@@ -122,6 +122,15 @@ const getAllTrees = async () => {
     return trees;
 }
 
+const getTour = async () => {
+    try {
+        const json = await axios.get('https://w3.winona.edu/locations/api/themes/1')
+        return json.data;
+    } catch (error) {
+        console.log(error);
+    }
+}
+
 // memoize the results, maybe update that memoization once a day 
 // or set a flag that indicates it needs to be updated
 const handleGetOneTree = async (req, res) => {
@@ -144,4 +153,9 @@ const handleGetAllTrees = async (req, res) => {
     }
 }
 
-module.exports = {handleGetOneTree, handleGetAllTrees};
+const handleGetTour = async (req, res) => {
+    tour = await getTour();
+    res.send(tour);
+}
+
+module.exports = {handleGetOneTree, handleGetAllTrees, handleGetTour};

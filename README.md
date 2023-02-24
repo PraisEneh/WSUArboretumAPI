@@ -14,17 +14,23 @@ It also makes use of the Arboretum XML file link to the trees so the objects are
 
 ### How to use this API
 
-This API consists of two main routes
+**This API consists of these main routes**
 
-*/tree/getAllTrees - Get a list of all the trees
+*/tree/getAllTrees - Get a list of all the trees ***this does take some time*** on the first request but then caches for quicker response on subsequent requests
 
-*/tree/getOneTree?id='some_id_number' - Get a single tree
+*/tree/getOneTree?id=some_id_number - Get a single tree
 
-The following subroutes
+*/tree/getTreeTour - Get a list of trees available for the tour
+
+*/root/getTours - Get a list of each available tour
+
+*/root/getTour?id=some_id_number - Get one of the available tours
+
+**The following subroutes**
 
 */help - View the documentation/source code
 
-*/ - Root route
+*/ - Guide route
 
 ### Response Objects
 

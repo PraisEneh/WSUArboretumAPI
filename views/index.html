@@ -7,16 +7,24 @@
     <title>API Interface Guide</title>
 </head>
 <body>
-    <h3>How to use this API</h3>
-
-    <h5>This API consists of two main routes</h5>
-
-    <p>*/tree/getAllTrees - Get a list of all the trees which consists of the tree name and ID number</p>
-
-    <p>*/tree/getOneTree?id='some_id_number' - Get a single tree using a query parameter id</p>
-
-    <h5>And the following subroutes</h5>
-    <p>*/help - View the source code, documentation, and raise issues</p>
-    <p>*/ - The current guide route you're on.</p>
+    <div style="display: flex; flex-direction: column; align-items: center; font-size: larger;">
+        <h3>How to use this API</h3>
+    
+        <h5>This API consists of these main routes</h5>
+    
+        <p>*/tree/getAllTrees - Get a list of all the trees which consists of the tree name and ID number</p>
+    
+        <p>*/tree/getOneTree?id='some_id_number' - Get a single tree using a query parameter id</p>
+        
+        <p>*/tree/getTreeTour - Get a list of trees available for the tour</p>
+        
+        <p>*/root/getTours - Get a list of each available tour</p>
+    
+        <p>*/root/getTour - Get one of the available tours</p>
+    
+        <h5>And the following subroutes</h5>
+        <p>*/help - View the source code, documentation, and raise issues</p>
+        <p>*/ - The current guide route you're on.</p>
+    </div>
 </body>
 </html>
