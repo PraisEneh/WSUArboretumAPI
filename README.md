@@ -10,7 +10,6 @@ It also makes use of the Arboretum XML file link to the trees so the objects are
 
 ### API Link
 
-
 -https://wsuarboretumnodeapi.onrender.com/
 
 ### How to use this API
