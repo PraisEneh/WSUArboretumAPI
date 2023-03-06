@@ -7,7 +7,7 @@ const corsOptions = require('./config/corsOptions');
 const {logger} = require('./middleware/logEvents');
 const errorHandler = require('./middleware/errorHandler');
 const path = require('path');
-const PORT = process.env.PORT;
+const PORT = process.env.PORT || 3500;
 // 1-293 is the index range for the trees
 
 // Custom middleware for logging events
