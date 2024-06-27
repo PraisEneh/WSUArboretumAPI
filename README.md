@@ -7,8 +7,8 @@ Praise Chinedu-Eneh
 Like the title above, this is an API for the WSU Arboretum.
 It formats XML to JSON.
 It also makes use of the Arboretum XML file link to the trees so the objects are direct outputs from the XML file format.
-* Initial requests made to this api will be delayed because the webservice is spun down when inactive
-* Subsequent requests made within a 15 minute timeframe will respond accordingly
+* <strong>Initial requests made to this api will be delayed for up to a minute because the webservice is spun down when inactive<strong>
+* <strong>Subsequent requests made within a 15 minute timeframe will respond accordingly<strong>
 
 ### API Link
 
